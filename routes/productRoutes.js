@@ -85,7 +85,7 @@ router.get("/", (req, res) => {
       name: "Bluetooth Speaker",
       price: 2499,
       category: "Electronics",
-      image: "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=300"
+      image: "https://www.imastudent.com/jbl-partybox-310-portable-bluetooth-speaker-with-party-lights?srsltid=AfmBOoqYssEaexWfQsFFtx3Aj8z1mjiTqwbHOMb_rSLjQ-7XSg9ewKOh?w=300"
     },
 
     // ================= KITCHEN =================
@@ -101,7 +101,7 @@ router.get("/", (req, res) => {
       name: "Cookware Set",
       price: 4599,
       category: "Kitchen",
-      image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=300"
+      image: "https://www.indiamart.com/proddetail/nonstick-cookware-set-2851653793333.html?srsltid=AfmBOoq5vAhaftAnuYbUQfJNt1LZD5rrrytQbpYWsijGS4BD2U-INSsu?w=300"
     },
 
     {
