@@ -41,7 +41,7 @@ router.get("/", (req, res) => {
       name: "Women Kurti",
       price: 799,
       category: "Women Wear",
-      image: "https://images.unsplash.com/photo-1581044777550-4cfa60707c03"
+      image: "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=300"
     },
 
     {
@@ -108,7 +108,7 @@ router.get("/", (req, res) => {
       name: "Dinner Set",
       price: 2999,
       category: "Kitchen",
-      image: "https://images.unsplash.com/photo-1603190287605-e6ade32fa852"
+      image: "https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=300"
     },
 
     // ================= SHOES =================
@@ -148,7 +148,7 @@ router.get("/", (req, res) => {
   // 🟢 MAKE 200 PRODUCTS AUTOMATICALLY
   const bigProducts = [];
 
-  for(let i = 0; i < 12; i++){
+  for(let i = 0; i < 2; i++){
 
     products.forEach(product => {
 
