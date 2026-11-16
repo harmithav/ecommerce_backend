@@ -16,7 +16,10 @@ app.get("/", (req, res) => {
 
 // database connection
 mongoose.connect(process.env.MONGO_URI)
-.then(() => console.log("MongoDB Connected"))
+.then(() => {
+  console.log("MongoDB Connected");
+  console.log("Database Name:", mongoose.connection.name);
+})
 .catch(err => console.log("DB Error:", err));
 
 // routes
