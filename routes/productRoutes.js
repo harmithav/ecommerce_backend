@@ -86,6 +86,7 @@ router.get("/", (req, res) => {
       price: 2499,
       category: "Electronics",
       image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=75"
+    },
 
     // ================= KITCHEN =================
 
