@@ -85,8 +85,7 @@ router.get("/", (req, res) => {
       name: "Bluetooth Speaker",
       price: 2499,
       category: "Electronics",
-      image: "image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=75"
-    },
+      image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=75"
 
     // ================= KITCHEN =================
 
@@ -101,8 +100,7 @@ router.get("/", (req, res) => {
       name: "Cookware Set",
       price: 4599,
       category: "Kitchen",
-      image: "image: "https://images.unsplash.com/photo-1628797279405-8cd6ffdbeb6c?auto=format&fit=crop&w=600&q=75"
-    },
+      image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=600&q=75"    },
 
     {
       name: "Dinner Set",
